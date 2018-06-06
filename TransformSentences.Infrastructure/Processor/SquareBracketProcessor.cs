@@ -23,24 +23,19 @@ namespace TransformSentences.Infrastructure.Processor
                     int fromIndex = LastOpenIndex(textProcessed);
                     if (fromIndex > -1)
                     {
-
                         string toProcessFormat = textProcessed.Substring(fromIndex);
-
                         int toIndex = FirstCloseIndex(toProcessFormat);
-
                         if (toIndex > -1)
                         {
                             toProcessFormat = toBeReplaced = toProcessFormat.Substring(0, FirstCloseIndex(toProcessFormat));
+                            if (String.IsNullOrEmpty(toProcessFormat)) { return WarningMessage.NotClosingSquareBracket; }
                             toProcessFormat = FormatTextInsideBrackets(toProcessFormat);
                             textToProcess = textToProcess.Replace(toBeReplaced, toProcessFormat);
-                        }
-                        else
-                        {
-                            return "No closing bracket ] for current text";
                         }
                     }
                     else
                     {
+                        if (textProcessed.Contains("]")) { return WarningMessage.NotOpeningSquareBracket; }
                         exit = true;
                     }
 
@@ -56,7 +51,7 @@ namespace TransformSentences.Infrastructure.Processor
             }
         }
 
-        private string FormatTextInsideBrackets(string textToFormat)
+        public string FormatTextInsideBrackets(string textToFormat)
         {
             try
             {

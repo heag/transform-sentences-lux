@@ -89,9 +89,9 @@ namespace TransformSentences.Tests.Processor
         [TestCase]
         public void SingleSquareBracketsText()
         {
-            string expected = "Tests of a elpmas supplied by MeMFIS";
+            string expected = "Tests of a sample by MeMFIS supplied";
 
-            string actual = _processString.ProcessText(SentencesExamples.FirstSentence);
+            string actual = _processString.ProcessText(SentencesExamples.SecondSentence);
 
             Assert.AreEqual(expected, actual);
         }
@@ -121,7 +121,7 @@ namespace TransformSentences.Tests.Processor
         {
             string expected = WarningMessage.NotClosingSquareBracket;
 
-            string actual = _processString.ProcessText(SentencesExamples.NotClosingRoundBracket);
+            string actual = _processString.ProcessText(SentencesExamples.NotClosingSquareBracket);
 
             Assert.AreEqual(expected, actual);
         }
@@ -131,20 +131,20 @@ namespace TransformSentences.Tests.Processor
         {
             string expected = WarningMessage.NotOpeningSquareBracket;
 
-            string actual = _processString.ProcessText(SentencesExamples.NotOpeningRoundBracket);
+            string actual = _processString.ProcessText(SentencesExamples.NotOpeningSquareBracket);
 
             Assert.AreEqual(expected, actual);
         }
 
-        //[TestCase]
-        //public void FormatTextProperly()
-        //{
-        //    string expected = "elpmas";
+        [TestCase]
+        public void FormatTextProperlySquare()
+        {
+            string expected = "alpha beta zeta";
 
-        //    string actual = _roundBracketsProcessor.FormatTextInsideBrackets("(sample)");
+        string actual = _squareBracketsProcessor.FormatTextInsideBrackets("[zeta beta alpha]");
 
-        //    Assert.AreEqual(expected, actual);
-        //}
+            Assert.AreEqual(expected, actual);
+        }
         #endregion
 
     }

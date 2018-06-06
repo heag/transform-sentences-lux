@@ -34,6 +34,8 @@ namespace TransformSentences.Application.Constanst
         public const string NestedRoundBrackets = "Tests of (a (zeta alpha beta) words) by MeMFIS";
         public const string NotClosingRoundBracket = "Tests of (not closing by MeMFIS";
         public const string NotOpeningRoundBracket = "Tests of not opening) by MeMFIS";
+        public const string NotClosingSquareBracket = "Tests of [not closing by MeMFIS";
+        public const string NotOpeningSquareBracket = "Tests of not opening] by MeMFIS";
     }
 
     public static class WarningMessage
