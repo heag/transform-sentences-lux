@@ -1,0 +1,14 @@
+C:\ProjectsVS\TransformSentences\TransformSentences\bin\Debug\TransformSentences.exe.config
+C:\ProjectsVS\TransformSentences\TransformSentences\bin\Debug\TransformSentences.exe
+C:\ProjectsVS\TransformSentences\TransformSentences\bin\Debug\TransformSentences.pdb
+C:\ProjectsVS\TransformSentences\TransformSentences\obj\Debug\TransformSentences.csprojResolveAssemblyReference.cache
+C:\ProjectsVS\TransformSentences\TransformSentences\obj\Debug\TransformSentences.csproj.CoreCompileInputs.cache
+C:\ProjectsVS\TransformSentences\TransformSentences\obj\Debug\TransformSentences.exe
+C:\ProjectsVS\TransformSentences\TransformSentences\obj\Debug\TransformSentences.pdb
+C:\ProjectsVS\TransformSentences\TransformSentences\bin\Debug\TransformSentences.Domain.dll
+C:\ProjectsVS\TransformSentences\TransformSentences\bin\Debug\TransformSentences.Infrastructure.dll
+C:\ProjectsVS\TransformSentences\TransformSentences\bin\Debug\TransformSentences.Domain.pdb
+C:\ProjectsVS\TransformSentences\TransformSentences\bin\Debug\TransformSentences.Infrastructure.pdb
+C:\ProjectsVS\TransformSentences\TransformSentences\obj\Debug\TransformSentences.csproj.CopyComplete
+C:\ProjectsVS\TransformSentences\TransformSentences\bin\Debug\TransformSentences.Application.dll
+C:\ProjectsVS\TransformSentences\TransformSentences\bin\Debug\TransformSentences.Application.pdb

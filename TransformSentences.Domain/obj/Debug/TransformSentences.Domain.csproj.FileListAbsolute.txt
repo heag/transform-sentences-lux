@@ -1,0 +1,6 @@
+C:\ProjectsVS\TransformSentences\TransformSentences.Domain\bin\Debug\TransformSentences.Domain.dll
+C:\ProjectsVS\TransformSentences\TransformSentences.Domain\bin\Debug\TransformSentences.Domain.pdb
+C:\ProjectsVS\TransformSentences\TransformSentences.Domain\obj\Debug\TransformSentences.Domain.csproj.CoreCompileInputs.cache
+C:\ProjectsVS\TransformSentences\TransformSentences.Domain\obj\Debug\TransformSentences.Domain.dll
+C:\ProjectsVS\TransformSentences\TransformSentences.Domain\obj\Debug\TransformSentences.Domain.pdb
+C:\ProjectsVS\TransformSentences\TransformSentences.Domain\obj\Debug\TransformSentences.Domain.csprojResolveAssemblyReference.cache

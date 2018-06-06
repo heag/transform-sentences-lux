@@ -1,0 +1,11 @@
+C:\ProjectsVS\TransformSentences\TransformSentences.Infrastructure\bin\Debug\TransformSentences.Infrastructure.dll
+C:\ProjectsVS\TransformSentences\TransformSentences.Infrastructure\bin\Debug\TransformSentences.Infrastructure.pdb
+C:\ProjectsVS\TransformSentences\TransformSentences.Infrastructure\bin\Debug\TransformSentences.Domain.dll
+C:\ProjectsVS\TransformSentences\TransformSentences.Infrastructure\bin\Debug\TransformSentences.Domain.pdb
+C:\ProjectsVS\TransformSentences\TransformSentences.Infrastructure\obj\Debug\TransformSentences.Infrastructure.csprojResolveAssemblyReference.cache
+C:\ProjectsVS\TransformSentences\TransformSentences.Infrastructure\obj\Debug\TransformSentences.Infrastructure.csproj.CoreCompileInputs.cache
+C:\ProjectsVS\TransformSentences\TransformSentences.Infrastructure\obj\Debug\TransformSentences.Infrastructure.csproj.CopyComplete
+C:\ProjectsVS\TransformSentences\TransformSentences.Infrastructure\obj\Debug\TransformSentences.Infrastructure.dll
+C:\ProjectsVS\TransformSentences\TransformSentences.Infrastructure\obj\Debug\TransformSentences.Infrastructure.pdb
+C:\ProjectsVS\TransformSentences\TransformSentences.Infrastructure\bin\Debug\TransformSentences.Application.dll
+C:\ProjectsVS\TransformSentences\TransformSentences.Infrastructure\bin\Debug\TransformSentences.Application.pdb
